@@ -1,0 +1,7 @@
+{
+  "name": "HIS-Core",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

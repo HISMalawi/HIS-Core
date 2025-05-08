@@ -1,0 +1,68 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+	xmlns:amazon
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:3:1-57
+	xmlns:android
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:4:1-7:15
+	android:usesCleartextTraffic
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:4:15-50
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:1-302
+	android:clearTaskOnLaunch
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:74-106
+	android:windowSoftInputMode
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:228-275
+	android:exported
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:276-300
+	android:configChanges
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:107-168
+	android:theme
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:169-227
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:5:11-73
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-103
+	android:label
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:80-101
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:11-79
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:1-63
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:8:18-61
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:9:1-69
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:9:18-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:10:1-76
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:10:18-74
+uses-permission#android.permission.CAMERA
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:1-60
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:11:18-58
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:1-64
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:18-62
+uses-feature#android.hardware.camera
+ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:13:1-79
+	android:required
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:13:54-77
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:13:15-53
+uses-sdk
+INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml

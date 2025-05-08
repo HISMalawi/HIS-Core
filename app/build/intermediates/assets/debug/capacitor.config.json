@@ -1,0 +1,16 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "HIS-Core",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "dist",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	},
+	"cordova": {},
+	"server": {
+		"cleartext": true
+	}
+}

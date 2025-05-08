@@ -1,0 +1,1 @@
+System.register(["./index-legacy-C7ieadqO.js"],(function(e,r){"use strict";var s;return{setters:[e=>{s=e.dl}],execute:function(){e("LabelPrinterWeb",class extends s{async printLabel(e){console.log(e)}async printTestPage(e){console.log(e)}async discover(){return{devices:[{name:"webPrinter",address:"Browser",port:"Browser"}]}}})}}}));

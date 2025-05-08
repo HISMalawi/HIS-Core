@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.ionic.starter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- Permissions -->
+12    <!-- Request legacy Bluetooth permissions on older devices. -->
+13
+14
+15    <!-- Needed only if your app uses Bluetooth scan results to derive physical location. -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:5-79
+16-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:51:5-67
+17-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:51:22-64
+18    <!-- Camera, Photos, input file -->
+19    <uses-permission
+19-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:53:5-54:38
+20        android:name="android.permission.READ_EXTERNAL_STORAGE"
+20-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:53:22-77
+21        android:maxSdkVersion="32" />
+21-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:54:9-35
+22    <uses-permission
+22-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:55:5-57:38
+23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+23-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:56:9-65
+24        android:maxSdkVersion="32" />
+24-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:57:9-35
+25    <!-- Geolocation API -->
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:59:5-81
+26-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:59:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:5-79
+27-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:22-76
+28
+29    <uses-feature android:name="android.hardware.location.gps" />
+29-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:61:5-66
+29-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:61:19-63
+30    <uses-feature
+30-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:62:5-64:36
+31        android:name="android.hardware.camera"
+31-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:63:9-47
+32        android:required="true" />
+32-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:64:9-33
+33    <!-- Network API -->
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:66:5-79
+34-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:66:22-76
+35    <!-- Navigator.getUserMedia -->
+36    <!-- Video -->
+37    <uses-permission android:name="android.permission.CAMERA" />
+37-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:69:5-65
+37-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:69:22-62
+38    <!-- Audio -->
+39    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+39-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:71:5-71
+39-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:71:22-68
+40    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+40-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:72:5-79
+40-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:72:22-77
+41    <uses-permission android:name="android.permission.VIBRATE" />
+41-->[:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-66
+41-->[:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-63
+42    <uses-permission android:name="android.permission.BLUETOOTH" />
+42-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:11:5-68
+42-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:11:22-65
+43    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+43-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:12:5-74
+43-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:12:22-71
+44    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+44-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:17:5-76
+44-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:17:22-73
+45    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+45-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:18:5-76
+45-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:18:22-73
+46    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+46-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:19:5-86
+46-->[autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:19:22-83
+47    <uses-permission android:name="android.permission.FLASHLIGHT" />
+47-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-69
+47-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-66
+48
+49    <application
+49-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:5:5-44:19
+50        android:allowBackup="true"
+50-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:6:9-35
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+52        android:debuggable="true"
+53        android:extractNativeLibs="true"
+54        android:icon="@mipmap/ic_launcher"
+54-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:7:9-43
+55        android:label="@string/app_name"
+55-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:8:9-41
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:9:9-54
+57        android:supportsRtl="true"
+57-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:10:9-35
+58        android:testOnly="true"
+59        android:theme="@style/AppTheme"
+59-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:11:9-40
+60        android:usesCleartextTraffic="true" >
+60-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:18-53
+61        <activity
+61-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:13:9-33:20
+62            android:name="io.ionic.starter.MainActivity"
+62-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:15:13-57
+63            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+63-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:14:13-129
+64            android:exported="true"
+64-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:19:13-36
+65            android:label="@string/title_activity_main"
+65-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:16:13-56
+66            android:launchMode="singleTask"
+66-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:18:13-44
+67            android:theme="@style/AppTheme.NoActionBarLaunch" >
+67-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:17:13-62
+68            <intent-filter>
+68-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:21:13-24:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:22:17-69
+69-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:22:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:23:17-77
+71-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:23:27-74
+72            </intent-filter>
+73            <intent-filter>
+73-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:26:13-31:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:27:17-69
+74-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:27:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:28:17-76
+76-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:28:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:29:17-78
+77-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:29:27-75
+78
+79                <data android:scheme="@string/custom_url_scheme" />
+79-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:30:17-68
+79-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:30:23-65
+80            </intent-filter>
+81        </activity>
+82
+83        <provider
+84            android:name="androidx.core.content.FileProvider"
+84-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:36:13-62
+85            android:authorities="io.ionic.starter.fileprovider"
+85-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:37:13-64
+86            android:exported="false"
+86-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:38:13-37
+87            android:grantUriPermissions="true" >
+87-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:39:13-47
+88            <meta-data
+88-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:40:13-42:54
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:41:17-67
+90                android:resource="@xml/file_paths" />
+90-->/home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:42:17-51
+91        </provider>
+92
+93        <activity
+93-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-25:63
+94            android:name="com.google.zxing.client.android.CaptureActivity"
+94-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-75
+95            android:clearTaskOnLaunch="true"
+95-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-45
+96            android:configChanges="orientation|keyboardHidden|screenSize"
+96-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-74
+97            android:exported="false"
+97-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-37
+98            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+98-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-71
+99            android:windowSoftInputMode="stateAlwaysHidden" />
+99-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-60
+100        <activity
+100-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-28:37
+101            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+101-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-81
+102            android:label="Share" />
+102-->[:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-34
+103
+104        <provider
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+106            android:authorities="io.ionic.starter.androidx-startup"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>

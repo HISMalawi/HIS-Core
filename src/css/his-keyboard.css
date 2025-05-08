@@ -1,0 +1,66 @@
+.his-floating-keyboard {
+    left: 0;
+    bottom: 8px;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 97.8%;
+    background-color: white;
+    border-radius: 13px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 10;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.his-floating-keyboard-content {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.his-keyboard-margin {
+    padding: 2px;
+}
+
+.his-keyboard-btn.btn-Unknown-Keypad, .his-keyboard-btn.btn-Confirm-Keypad {
+    width: 10vw !important;
+    position: absolute;
+    font-size: 0.9rem;
+}
+.his-keyboard-btn.btn-Confirm-Keypad {
+    --background: #2dd36f;
+    margin-left: -15px;
+}
+ 
+
+.his-keyboard-btn {
+    font-weight: bold;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .his-floating-keyboard {
+        overflow-x: auto;
+    }
+    .his-floating-keyboard-content {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px){
+    .his-keyboard-btn {
+      height: 50px;
+      font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .his-keyboard-btn {
+      height: 60px;
+      padding: 3px;
+      font-size: 1.4rem;
+    }
+}

@@ -1,0 +1,435 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:grantUriPermissions
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:39:13-47
+	android:authorities
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:37:13-64
+	android:exported
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:36:13-62
+manifest
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:2:1-73:12
+MERGED from [:capacitor-device] /home/daniel/projects/emr-core/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-filesystem] /home/daniel/projects/emr-core/node_modules/@capacitor/filesystem/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-9:12
+MERGED from [:capacitor-keyboard] /home/daniel/projects/emr-core/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-status-bar] /home/daniel/projects/emr-core/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:cap-label-printer-plugin] /home/daniel/projects/cap-label-printer-plugin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:2:1-21:12
+MERGED from [:capacitor-blob-writer] /home/daniel/projects/emr-core/node_modules/capacitor-blob-writer/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-android] /home/daniel/projects/emr-core/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/daniel/.gradle/caches/transforms-4/0a4d9fb89952d564ec89b96a300c219a/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/daniel/.gradle/caches/transforms-4/d9b8721efcc45165f70338de82e5b832/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:barcodescanner-release-2.1.5:] /home/daniel/.gradle/caches/transforms-4/5b7d3182c2a098ec4d6b4a04e697628e/transformed/jetified-barcodescanner-release-2.1.5/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniel/.gradle/caches/transforms-4/d8f1c86c5e74043747796d97f5654281/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniel/.gradle/caches/transforms-4/530de6560686d54bc773be62e77107fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/daniel/.gradle/caches/transforms-4/44bf645f2f8bb8901b9067e1a7d88ae5/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/f15d5b567d1e62018e2d9357feb7057a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.6] /home/daniel/.gradle/caches/transforms-4/547f6420a2e6598486b0600b38d0645d/transformed/fragment-1.5.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.0] /home/daniel/.gradle/caches/transforms-4/9b51dfe272495ad0be0359037dfcab9f/transformed/jetified-activity-1.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/daniel/.gradle/caches/transforms-4/24382a76d1e19c54483406c8e48357cb/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.6.1] /home/daniel/.gradle/caches/transforms-4/17710ac09e50c18e34f84f7a6f00273c/transformed/webkit-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/daniel/.gradle/caches/transforms-4/3b365db736af33d1870e44b24ef9c807/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniel/.gradle/caches/transforms-4/a4fe5c7ad568eb1fa6d2d3d86aa38b02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/daniel/.gradle/caches/transforms-4/b4cc5b7431f60f1ba81eeb6b53011b9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/daniel/.gradle/caches/transforms-4/03f655cdcd17b730f40d417abd9322fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniel/.gradle/caches/transforms-4/2efa5830b43b75c640b4864fd6497228/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/39d9378e3c3aaadcc1d6b76485090c8b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/daniel/.gradle/caches/transforms-4/9915b6a15b2a27f92536277ba72240fe/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/daniel/.gradle/caches/transforms-4/84f98e55e14375fc78060a38607582bc/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/daniel/.gradle/caches/transforms-4/95f96350986d0b2a7a2d218315064433/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/daniel/.gradle/caches/transforms-4/a84bb3d77d17920c513ae5923240beb7/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/daniel/.gradle/caches/transforms-4/35a105444af20360f4bb94c7b2a1c0a3/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/daniel/.gradle/caches/transforms-4/c4efd6981e1022ca576f9c3f0c1a0ed3/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/daniel/.gradle/caches/transforms-4/60616d2fdcccffbb1b16f16ed8c97d6b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/daniel/.gradle/caches/transforms-4/0d5624cf36e76778d6ee658cd93dfdee/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.2.0] /home/daniel/.gradle/caches/transforms-4/53a8e77bc962cc28bc3724fa285e839d/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/a275450b2c8efad012eb83780c4c11ed/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniel/.gradle/caches/transforms-4/eda25b46723be404f3e8691107048c56/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/daniel/.gradle/caches/transforms-4/2e7e9687c209d60f52f58f966b73deca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/daniel/.gradle/caches/transforms-4/f04af1f110d9af59c67f38c9c5d74275/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniel/.gradle/caches/transforms-4/f9e53e5ba9d150cceaf8f345caf76422/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniel/.gradle/caches/transforms-4/570d8e008d1383e69153df65ba3584ee/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/daniel/.gradle/caches/transforms-4/fbb5afe1dd8556f09d036d0e3d62eb80/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniel/.gradle/caches/transforms-4/a131b467b5dc381770e4584cebcbb8f1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/daniel/.gradle/caches/transforms-4/126747329cf4d65ff454296420e9f7a4/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.apache.cordova:framework:7.0.0] /home/daniel/.gradle/caches/transforms-4/e6c3d019ee1dc4eb685df98e105ee792/transformed/jetified-framework-7.0.0/AndroidManifest.xml:20:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/daniel/.gradle/caches/transforms-4/5187eca854b4d7fad1c6cda40ca3f6b5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:5:5-44:19
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:5:5-44:19
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:5-29:19
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:5-29:19
+MERGED from [:barcodescanner-release-2.1.5:] /home/daniel/.gradle/caches/transforms-4/5b7d3182c2a098ec4d6b4a04e697628e/transformed/jetified-barcodescanner-release-2.1.5/AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] /home/daniel/.gradle/caches/transforms-4/5b7d3182c2a098ec4d6b4a04e697628e/transformed/jetified-barcodescanner-release-2.1.5/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/daniel/.gradle/caches/transforms-4/2e7e9687c209d60f52f58f966b73deca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/daniel/.gradle/caches/transforms-4/2e7e9687c209d60f52f58f966b73deca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:11:9-40
+	android:usesCleartextTraffic
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:18-53
+activity#io.ionic.starter.MainActivity
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:13:9-33:20
+	android:label
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:16:13-56
+	android:launchMode
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:18:13-44
+	android:exported
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:19:13-36
+	android:configChanges
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:14:13-129
+	android:theme
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:17:13-62
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:15:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:21:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:23:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/custom_url_scheme
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:26:13-31:29
+action#android.intent.action.VIEW
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:29:27-75
+data
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:30:17-68
+	android:scheme
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:30:23-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:5-79
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:14:5-79
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:50:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:51:5-67
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:15:5-67
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:51:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:53:5-54:38
+	android:maxSdkVersion
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:54:9-35
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:53:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:55:5-57:38
+	android:maxSdkVersion
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:57:9-35
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:56:9-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:59:5-81
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:13:5-81
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:13:5-81
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:59:22-78
+uses-feature#android.hardware.location.gps
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:61:5-66
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:61:19-63
+uses-feature#android.hardware.camera
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:62:5-64:36
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-16:35
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:5-16:35
+	android:required
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:64:9-33
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:63:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:66:5-79
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:16:5-79
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:66:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:69:5-65
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-65
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:69:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:71:5-71
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:71:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:72:5-79
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:72:22-77
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:40:13-42:54
+	android:resource
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:42:17-51
+	android:name
+		ADDED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml:41:17-67
+uses-sdk
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+MERGED from [:capacitor-device] /home/daniel/projects/emr-core/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-device] /home/daniel/projects/emr-core/node_modules/@capacitor/device/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-filesystem] /home/daniel/projects/emr-core/node_modules/@capacitor/filesystem/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-filesystem] /home/daniel/projects/emr-core/node_modules/@capacitor/filesystem/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-keyboard] /home/daniel/projects/emr-core/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-keyboard] /home/daniel/projects/emr-core/node_modules/@capacitor/keyboard/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-status-bar] /home/daniel/projects/emr-core/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-status-bar] /home/daniel/projects/emr-core/node_modules/@capacitor/status-bar/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:cap-label-printer-plugin] /home/daniel/projects/cap-label-printer-plugin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:cap-label-printer-plugin] /home/daniel/projects/cap-label-printer-plugin/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:7:5-9:41
+MERGED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:7:5-9:41
+MERGED from [:capacitor-blob-writer] /home/daniel/projects/emr-core/node_modules/capacitor-blob-writer/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-blob-writer] /home/daniel/projects/emr-core/node_modules/capacitor-blob-writer/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /home/daniel/projects/emr-core/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /home/daniel/projects/emr-core/node_modules/@capacitor/android/capacitor/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/daniel/.gradle/caches/transforms-4/0a4d9fb89952d564ec89b96a300c219a/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/daniel/.gradle/caches/transforms-4/0a4d9fb89952d564ec89b96a300c219a/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/daniel/.gradle/caches/transforms-4/d9b8721efcc45165f70338de82e5b832/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/daniel/.gradle/caches/transforms-4/d9b8721efcc45165f70338de82e5b832/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:barcodescanner-release-2.1.5:] /home/daniel/.gradle/caches/transforms-4/5b7d3182c2a098ec4d6b4a04e697628e/transformed/jetified-barcodescanner-release-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] /home/daniel/.gradle/caches/transforms-4/5b7d3182c2a098ec4d6b4a04e697628e/transformed/jetified-barcodescanner-release-2.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniel/.gradle/caches/transforms-4/d8f1c86c5e74043747796d97f5654281/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/daniel/.gradle/caches/transforms-4/d8f1c86c5e74043747796d97f5654281/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniel/.gradle/caches/transforms-4/530de6560686d54bc773be62e77107fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/daniel/.gradle/caches/transforms-4/530de6560686d54bc773be62e77107fe/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/daniel/.gradle/caches/transforms-4/44bf645f2f8bb8901b9067e1a7d88ae5/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/daniel/.gradle/caches/transforms-4/44bf645f2f8bb8901b9067e1a7d88ae5/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/f15d5b567d1e62018e2d9357feb7057a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/f15d5b567d1e62018e2d9357feb7057a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.6] /home/daniel/.gradle/caches/transforms-4/547f6420a2e6598486b0600b38d0645d/transformed/fragment-1.5.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.6] /home/daniel/.gradle/caches/transforms-4/547f6420a2e6598486b0600b38d0645d/transformed/fragment-1.5.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.0] /home/daniel/.gradle/caches/transforms-4/9b51dfe272495ad0be0359037dfcab9f/transformed/jetified-activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.0] /home/daniel/.gradle/caches/transforms-4/9b51dfe272495ad0be0359037dfcab9f/transformed/jetified-activity-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/daniel/.gradle/caches/transforms-4/24382a76d1e19c54483406c8e48357cb/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /home/daniel/.gradle/caches/transforms-4/24382a76d1e19c54483406c8e48357cb/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.6.1] /home/daniel/.gradle/caches/transforms-4/17710ac09e50c18e34f84f7a6f00273c/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.6.1] /home/daniel/.gradle/caches/transforms-4/17710ac09e50c18e34f84f7a6f00273c/transformed/webkit-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/daniel/.gradle/caches/transforms-4/3b365db736af33d1870e44b24ef9c807/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/daniel/.gradle/caches/transforms-4/3b365db736af33d1870e44b24ef9c807/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniel/.gradle/caches/transforms-4/a4fe5c7ad568eb1fa6d2d3d86aa38b02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/daniel/.gradle/caches/transforms-4/a4fe5c7ad568eb1fa6d2d3d86aa38b02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/daniel/.gradle/caches/transforms-4/b4cc5b7431f60f1ba81eeb6b53011b9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/daniel/.gradle/caches/transforms-4/b4cc5b7431f60f1ba81eeb6b53011b9c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/daniel/.gradle/caches/transforms-4/03f655cdcd17b730f40d417abd9322fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/daniel/.gradle/caches/transforms-4/03f655cdcd17b730f40d417abd9322fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniel/.gradle/caches/transforms-4/2efa5830b43b75c640b4864fd6497228/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/daniel/.gradle/caches/transforms-4/2efa5830b43b75c640b4864fd6497228/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/39d9378e3c3aaadcc1d6b76485090c8b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/39d9378e3c3aaadcc1d6b76485090c8b/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/daniel/.gradle/caches/transforms-4/9915b6a15b2a27f92536277ba72240fe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/daniel/.gradle/caches/transforms-4/9915b6a15b2a27f92536277ba72240fe/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/daniel/.gradle/caches/transforms-4/84f98e55e14375fc78060a38607582bc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/daniel/.gradle/caches/transforms-4/84f98e55e14375fc78060a38607582bc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/daniel/.gradle/caches/transforms-4/95f96350986d0b2a7a2d218315064433/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/daniel/.gradle/caches/transforms-4/95f96350986d0b2a7a2d218315064433/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/daniel/.gradle/caches/transforms-4/a84bb3d77d17920c513ae5923240beb7/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/daniel/.gradle/caches/transforms-4/a84bb3d77d17920c513ae5923240beb7/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/daniel/.gradle/caches/transforms-4/35a105444af20360f4bb94c7b2a1c0a3/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/daniel/.gradle/caches/transforms-4/35a105444af20360f4bb94c7b2a1c0a3/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/daniel/.gradle/caches/transforms-4/c4efd6981e1022ca576f9c3f0c1a0ed3/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/daniel/.gradle/caches/transforms-4/c4efd6981e1022ca576f9c3f0c1a0ed3/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/daniel/.gradle/caches/transforms-4/60616d2fdcccffbb1b16f16ed8c97d6b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/daniel/.gradle/caches/transforms-4/60616d2fdcccffbb1b16f16ed8c97d6b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/daniel/.gradle/caches/transforms-4/0d5624cf36e76778d6ee658cd93dfdee/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/daniel/.gradle/caches/transforms-4/0d5624cf36e76778d6ee658cd93dfdee/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.2.0] /home/daniel/.gradle/caches/transforms-4/53a8e77bc962cc28bc3724fa285e839d/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.2.0] /home/daniel/.gradle/caches/transforms-4/53a8e77bc962cc28bc3724fa285e839d/transformed/jetified-core-ktx-1.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/a275450b2c8efad012eb83780c4c11ed/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/daniel/.gradle/caches/transforms-4/a275450b2c8efad012eb83780c4c11ed/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniel/.gradle/caches/transforms-4/eda25b46723be404f3e8691107048c56/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/daniel/.gradle/caches/transforms-4/eda25b46723be404f3e8691107048c56/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /home/daniel/.gradle/caches/transforms-4/4e7e5e0480af506f49130aeeee5882c4/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/daniel/.gradle/caches/transforms-4/2e7e9687c209d60f52f58f966b73deca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/daniel/.gradle/caches/transforms-4/2e7e9687c209d60f52f58f966b73deca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/daniel/.gradle/caches/transforms-4/f04af1f110d9af59c67f38c9c5d74275/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/daniel/.gradle/caches/transforms-4/f04af1f110d9af59c67f38c9c5d74275/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniel/.gradle/caches/transforms-4/f9e53e5ba9d150cceaf8f345caf76422/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/daniel/.gradle/caches/transforms-4/f9e53e5ba9d150cceaf8f345caf76422/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniel/.gradle/caches/transforms-4/570d8e008d1383e69153df65ba3584ee/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/daniel/.gradle/caches/transforms-4/570d8e008d1383e69153df65ba3584ee/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/daniel/.gradle/caches/transforms-4/fbb5afe1dd8556f09d036d0e3d62eb80/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/daniel/.gradle/caches/transforms-4/fbb5afe1dd8556f09d036d0e3d62eb80/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniel/.gradle/caches/transforms-4/a131b467b5dc381770e4584cebcbb8f1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/daniel/.gradle/caches/transforms-4/a131b467b5dc381770e4584cebcbb8f1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/daniel/.gradle/caches/transforms-4/126747329cf4d65ff454296420e9f7a4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/daniel/.gradle/caches/transforms-4/126747329cf4d65ff454296420e9f7a4/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] /home/daniel/.gradle/caches/transforms-4/e6c3d019ee1dc4eb685df98e105ee792/transformed/jetified-framework-7.0.0/AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] /home/daniel/.gradle/caches/transforms-4/e6c3d019ee1dc4eb685df98e105ee792/transformed/jetified-framework-7.0.0/AndroidManifest.xml:25:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/daniel/.gradle/caches/transforms-4/5187eca854b4d7fad1c6cda40ca3f6b5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/daniel/.gradle/caches/transforms-4/5187eca854b4d7fad1c6cda40ca3f6b5/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/daniel/projects/emr-core/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from [:capacitor-haptics] /home/daniel/projects/emr-core/node_modules/@capacitor/haptics/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:11:5-68
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-68
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:12:5-74
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-74
+MERGED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [autoreplyprint.aar] /home/daniel/.gradle/caches/transforms-4/1e48fb6de20f59324343bb4f24615da2/transformed/jetified-autoreplyprint/AndroidManifest.xml:19:22-83
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:22-66
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-25:63
+	android:clearTaskOnLaunch
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-45
+	android:windowSoftInputMode
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:13-60
+	android:exported
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-71
+	android:name
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-75
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:9-28:37
+	android:label
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-34
+	android:name
+		ADDED from [:capacitor-cordova-android-plugins] /home/daniel/projects/emr-core/android/capacitor-cordova-android-plugins/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-81
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/daniel/.gradle/caches/transforms-4/9c0595c9601e1c96e838a31b0302e0ce/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/daniel/.gradle/caches/transforms-4/f622eb1fde867bf4b2ead99e94926464/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

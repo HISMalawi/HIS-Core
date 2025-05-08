@@ -1,0 +1,1 @@
+export const MALAWI_NATIONAL_ID_TYPE = 28;

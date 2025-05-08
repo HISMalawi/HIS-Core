@@ -1,0 +1,1 @@
+import{di as r}from"./index-CmAu9cV_.js";class o extends r{async printLabel(e){console.log(e)}async printTestPage(e){console.log(e)}async discover(){return{devices:[{name:"webPrinter",address:"Browser",port:"Browser"}]}}}export{o as LabelPrinterWeb};

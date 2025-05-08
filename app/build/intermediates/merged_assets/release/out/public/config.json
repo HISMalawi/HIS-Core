@@ -1,0 +1,36 @@
+{
+	"apiURL": "localhost",
+	"apiPort": "3000",
+	"apiProtocol": "http",
+	"appConf": {
+		"devMode": true,
+		"enableVersionLocking": true,
+		"promptFullScreenDialog": false,
+		"showUpdateNotifications": true
+	},
+	"apps": [
+		{ "name": "ART", "available": true },
+		{ "name": "LOS", "available": true },
+		{ "name": "OPD", "available": true },
+		{ "name": "ANC", "available": true },
+		{ "name": "CxCa", "available": true },
+		{ "name": "RADIOLOGY", "available": true },
+		{ "name": "Registration", "available": true}
+	],
+	"platformProfiles":  {
+		"Desktop": {
+			"profileName": "Desktop",
+			"fileExport": "WEB",
+			"scanner": "BARCODE_SCANNER",
+			"printer": "WEB",
+			"keyboard": "NATIVE_AND_HIS_KEYBOARD"
+		},
+		"Mobile" : {
+			"profileName": "Mobile",
+			"fileExport": "FILE_SYSTEM",
+			"scanner": "CAMERA_SCANNER",
+			"printer": "BLUETOOTH",
+			"keyboard": "HIS_KEYBOARD_ONLY"
+		}
+	}
+}
